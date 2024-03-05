@@ -1,6 +1,6 @@
 # TwO-O-Player Math Game
 
-## GAME DESCRIPTION: 
+## Game Description: 
 - 2-Player math game where players take turns to answer simple math addition problems. 
 - A new math question is generated for each turn by picking two numbers between 1 and 20. 
 - The player whose turn it is is prompted the question and must answer correctly or lose a life.
@@ -9,9 +9,9 @@
 - The game doesn’t end until one of the players loses all their lives.
 - The game will announce who won and what the other player’s score is.
 
-## GAME STRUCTURE
+## Game Structure
 
-### CLASSES
+## Classes
 - Game => To manage the game flow, control who's turn to answer a question
 - Player => To represent each player and hold their life scores
 - Question => To generate Math questions and validate answers
@@ -36,7 +36,7 @@
 #### Player 1
 - Q: What does 5 + 8 eqaul to?
 - A: => 12
-- A: This is the wrong answer! 
+- A: Nope! Your answer is wrong! 
 - P1: 2/3 vs P2 3/3
 
 ---New Turn---
@@ -47,10 +47,16 @@
 - P1: 2/3 vs P2 3/3
 
 ## Start the Game
+
+### To start the game => 
+- run => "ruby game.rb" in the Terminal
+
 - Player1_lives => P1:3
 - Player2_lives => P2:3
 
 - Every time the player answer wrong => lives - 1 =>  P1: 2/3 vs P2 3/3
-- When the Player1_lives or Player2_lives get 0/0 => Player1 / Player2 wins with a score of 0/3
+- When the Player1_lives / Player2_lives get 0 / 0 => Player1 / Player2 wins.
 
 ---- GAME OVER -----
+
+#### Have Fun!
