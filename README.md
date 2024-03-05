@@ -14,7 +14,7 @@
 ### CLASSES
 - Game => To manage the game flow, control who's turn to answer a question
 - Player => To represent each player and hold their life scores
-- Questions => To generate Math questions and validate answers
+- Question => To generate Math questions and validate answers
 
 ### Game Class
 - ATTRIBUTES: Player1, Player2, Current Player
